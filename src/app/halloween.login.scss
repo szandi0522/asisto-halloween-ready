@@ -108,7 +108,7 @@
   align-self: flex-end;
   border-radius: 0;
   background-color: darkorange;
-  color: #ffffff;
+  color: black;
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
@@ -117,7 +117,7 @@
 
 .login-button:not([disabled]):hover{
   background-color:darkred !important;
-  color: #ffffff !important;
+  color: darkgrey !important;
 }
 
 .login-button[disabled]{
