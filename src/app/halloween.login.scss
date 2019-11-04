@@ -1,0 +1,174 @@
+.login-page {
+  font-family: 'Yeon Sung', cursive;
+  margin: auto;
+  height: 720px;
+  width: 1280px;
+  background-color: black;
+  .login-image {
+    margin: auto;
+    background-color: #ffff;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-image: url('https://horrornews.net/wp-content/uploads/2010/09/13-greatest-horror-doctors-herbet-west.jpg');
+    background-position: center center;
+    background-size: cover;
+  }
+  .login-component-container {
+    padding-left: 95px;
+    padding-right: 70px;
+    background-color: black;
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    box-sizing: border-box;
+    font-size: 100%;
+    text-align: left;
+    .title {
+      height: 66px;
+      color: white;
+      font-size: 44px;
+      letter-spacing: 0.6px;
+      line-height: 66px;
+    }
+    .tiberius-title {
+      color: darkorange;
+      font-weight: 600;
+    }
+    .subtitle {
+      height: 33px;
+      color: orange;
+      font-size: 24px;
+      line-height: 33px;
+    }
+  }
+}
+.login-component {
+  height: 100%;
+  padding-right: 15px;
+  .login-form-container {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-top: 99px;
+    margin-bottom: 160px;
+    box-sizing: border-box;
+    font-size: 100%;
+    text-align: left;
+    .title {
+      color: white;
+      font-size: 32px;
+    }
+    .work-email {
+      height: 19px;
+      margin-bottom: 8px;
+    }
+    .password {
+      height: 19px;
+      margin-bottom: 8px;
+      margin-top: 16px;
+    }
+  }
+}
+
+.login-rectangle-left {
+  height: 8px;
+  width: 118px;
+  border-radius: 4px 0 0 4px;
+  background-color: darkorange;
+  margin-right: 10px;
+  margin-bottom: 36px;
+}
+
+.login-rectangle-right {
+  height: 8px;
+  width: 118px;
+  border-radius: 0 4px 4px 0;
+  margin-bottom: 36px;
+  &.login-rectangle-right-active{
+    background-color: darkorange;
+  }
+  &.login-rectangle-right-inactive{
+    background-color: #D8D8D8;
+  }
+}
+
+.form-label{
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.login-button {
+  &.mat-button{
+  height: 40px;
+  width: 120px;
+  margin-top: 32px;
+  align-self: flex-end;
+  border-radius: 0;
+  background-color: darkorange;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  }
+}
+
+.login-button:not([disabled]):hover{
+  background-color:darkred !important;
+  color: #ffffff !important;
+}
+
+.login-button[disabled]{
+  border: 1px solid #979797;
+  background-color: #EDEDED;
+  color: #979797;
+}
+
+.login-form {
+  background-color: #FFFFFF;
+
+  .mat-input-underline {
+      display: none;
+   }
+
+   .mat-form-field-flex {
+    padding-bottom: 0px;
+    background-color: #FFFFFF;
+    border: 1px solid #979797;
+    border-radius: 3px;
+    align-items: center;  
+  }
+  
+  .mat-form-field-infix {
+    border-top: 0; 
+    padding-bottom: 8px;
+    padding-top: 10px;
+    padding-left: 8px;
+  }   
+  
+  .mat-form-field-wrapper {
+    padding-bottom: 0;
+    height: 40px;
+  }
+  
+  .mat-form-field-label {
+      height: 19px;
+      color: #9B9B9B;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 19px;
+      padding-left: 8px;
+      padding-top: 8px;
+  }
+  
+  .mat-input-element{
+      height: 22px;
+      color: #000000;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 22px;
+  }          
+     
+}     
