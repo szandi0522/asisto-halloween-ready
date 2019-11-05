@@ -1,7 +1,9 @@
 /* Add application styles & imports to this file! */
 @import 'app/halloween-logo';
+@import url('https://fonts.googleapis.com/css?family=Yeon+Sung');
 
 body{
-   background-image: url('https://i.pinimg.com/originals/98/c1/2c/98c12c58d97d688e892efa96033b8827.gif');
+   background-image: url('https://cdn.dribbble.com/users/1851463/screenshots/3859850/skeletonpattern.jpg');
    background-size: cover;
+   font-family: 'Yeon Sung', cursive;
 }

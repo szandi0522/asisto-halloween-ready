@@ -9,6 +9,7 @@ import {
 } from '@angular/material';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 import { AppComponent } from './app.component';
@@ -22,6 +23,7 @@ import { AppComponent } from './app.component';
     MatInputModule,
     MatRippleModule,
     FlexLayoutModule,
+    BrowserAnimationsModule,
     ],
   exports: [
     FormsModule,
